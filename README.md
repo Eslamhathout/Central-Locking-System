@@ -8,7 +8,11 @@ of pitfalls and challenges. For example, a centralized locking system must provi
 requirements
 
 
-# Requirements
+
+
+
+
+## Requirements
 1. 100% guarantee of exclusive access. If 2 separate system managed to get access to the
 same resource, an unrecoverable corruption might occur.
 2. If an exclusive access is granted to one of the services, and the service crashed or died
